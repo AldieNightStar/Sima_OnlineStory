@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base href="/f/">
+    <meta charset="UTF-8">
+    <title>Edit your Sima Story</title>
+    <link rel="stylesheet" href="/simastyle.css">
+</head>
+<body>
+
+<div id="background">
+    <div id="buttons">
+        <pre id="helptext"></pre>
+        <hr>
+        <a href="/f/password.html">Change Password</a> ||
+
+
+
+        <form method="post" action="/changeScript">
+            <center><textarea id="txtarea" name="text"></textarea></center>
+            <input name="password" type="password" placeholder="password">
+            <input type="submit" value="Upload">
+        </form>
+
+
+
+        <button onclick="window.location = '/'">Cancel (Main)</button>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ajax.js"></script>
+<script type="text/javascript">
+	window.onload = function (q) {
+        var txtarea  = document.getElementById("txtarea");
+        var helptext = document.getElementById("helptext");
+        // ---
+
+        var scriptForArea = ajget("/gameScript");
+        var helpString    = ajget("/f/help.txt");
+
+        // ---
+        txtarea.innerText = scriptForArea;
+        helptext.innerText = helpString;
+
+
+    };
+</script>
+
+</body>
+</html>

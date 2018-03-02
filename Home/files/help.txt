@@ -1,0 +1,10 @@
+Sima Online Story (help):
+
+    t(text) -- Prints text
+    b(name, onclick) -- Adds Button
+    w(ms) -- Wait for ms
+    db(key) -- Get from Sima DB
+    db(key, value) -- Put into Sima DB some key=value
+    scene(name, function) -- Creates Scene with given function
+    goto(scenename) -- go to scene
+    goto() -- refresh scene

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JQuerry">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../JavaLibs/Jquerry/JQuerry.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,112 @@
+#background{
+    position: absolute;
+    height: 99%;
+    width: 99%;
+    background-size: 100% 100%;
+    transition: 300ms;
+    background-image: url(/f/digital.jpg);
+}
+
+#text{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 32px;
+    border: solid;
+    border-color: white;
+    padding: 10px;
+}
+
+#text p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+#buttons {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 32px;
+    border: solid;
+    color: white;
+    padding: 5px;
+    transition: 300ms;
+}
+
+
+
+
+
+
+
+
+
+#buttons button {
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    border-radius: 32px;
+    border: solid;
+    padding: 10px;
+    transition: 300ms;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons input {
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    border-radius: 32px;
+    border: solid;
+    padding: 10px;
+    transition: 300ms;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons input:hover {
+    background-color: white;
+    color: black;
+    width: 90%;
+    border: solid;
+}
+
+#buttons button:hover {
+    background-color: white;
+    color: black;
+    width: 90%;
+    border: solid;
+}
+
+#buttons button:active {
+    width: 50%;
+    background-color: black;
+    color: yellow;
+}
+
+#buttons textarea{
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    border-radius: 32px;
+    border: solid;
+    padding: 10px;
+    transition: 300ms;
+    display: block;
+    width: 50%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.editButton {
+    position: relative;
+    color: white;
+    font-size: 12px;
+    border-radius: 32px;
+    border: solid;
+    padding: 5px;
+    top: 10px;
+    background-color: black;
+}

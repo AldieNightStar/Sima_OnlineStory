@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Class-Path: guava-24.0-jre.jar javax.servlet-api-3.1.0.jar jetty-serve
+ r-9.4.6.v20170531.jar websocket-client-9.4.6.v20170531.jar jsr305-1.3
+ .9.jar error_prone_annotations-2.1.3.jar websocket-common-9.4.6.v2017
+ 0531.jar checker-compat-qual-2.0.0.jar jetty-xml-9.4.6.v20170531.jar 
+ jetty-security-9.4.6.v20170531.jar jetty-webapp-9.4.6.v20170531.jar w
+ ebsocket-servlet-9.4.6.v20170531.jar SparkUpload.jar j2objc-annotatio
+ ns-1.1.jar jetty-io-9.4.6.v20170531.jar JQuerry.jar jetty-servlet-9.4
+ .6.v20170531.jar jetty-client-9.4.6.v20170531.jar gson-2.8.2.jar slf4
+ j-api-1.7.13.jar websocket-api-9.4.6.v20170531.jar animal-sniffer-ann
+ otations-1.14.jar jetty-util-9.4.6.v20170531.jar spark-core-2.7.1.jar
+  jetty-http-9.4.6.v20170531.jar websocket-server-9.4.6.v20170531.jar
+Main-Class: com.fox.Sima.OnlineStory.Main
+

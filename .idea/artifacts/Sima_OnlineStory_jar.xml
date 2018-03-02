@@ -1,0 +1,39 @@
+<component name="ArtifactManager">
+  <artifact name="Sima_OnlineStory:jar">
+    <output-path>$PROJECT_DIR$/Home/bin</output-path>
+    <root id="root">
+      <element id="archive" name="Sima_OnlineStory.jar">
+        <element id="module-output" name="Sima_OnlineStory" />
+        <element id="directory" name="META-INF">
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/META-INF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: com.google.guava:guava:24.0-jre" />
+      <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+      <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.1.3" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.checkerframework:checker-compat-qual:2.0.0" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-xml:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-webapp:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-servlet:9.4.6.v20170531" />
+      <element id="library" level="project" name="SparkUpload" />
+      <element id="library" level="project" name="Maven: com.google.j2objc:j2objc-annotations:1.1" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.4.6.v20170531" />
+      <element id="library" level="project" name="JQuerry" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-client:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.2" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.13" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: com.sparkjava:spark-core:2.7.1" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.4.6.v20170531" />
+      <element id="library" level="project" name="Maven: org.eclipse.jetty.websocket:websocket-server:9.4.6.v20170531" />
+    </root>
+  </artifact>
+</component>
